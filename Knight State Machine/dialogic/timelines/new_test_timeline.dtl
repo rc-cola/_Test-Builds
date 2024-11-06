@@ -1,0 +1,11 @@
+if {completed_test_timeline} == false:
+	join  center
+	cutter: Hello12344
+	- I like you!
+		join  center
+		test_character: hello back!
+	- I hate you!
+		cutter: GO AWAY!
+		set {completed_test_timeline} = true
+else:
+	cutter: GO AWAY!
