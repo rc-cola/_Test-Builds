@@ -1,3 +1,0 @@
-[main]
-
-latest_save_slot="1"
